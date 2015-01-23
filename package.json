@@ -1,0 +1,42 @@
+{
+  "name": "acute-data-mongodb",
+  "description": "An aCute app plugin for using mongodb data sources",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": "John O'Connor <sax1johno@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sax1johno/acute-data-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sax1johno/acute-data-mongodb/issues"
+  },
+  "contributors": [
+    "John O'Connor <sax1johno@gmail.com>"
+  ],
+  "dependencies": {
+    "async": "*",
+    "mongoose": "*",
+    "architect": "*",
+    "path": "*"
+  },
+  "keywords": [
+    "acute",
+    "data",
+    "mongodb",
+    "mongo"
+  ],
+  "license": "MIT",
+  "plugin": {
+    "provides": [
+      "data-mongodb"
+    ]
+  },
+  "homepage": "https://github.com/sax1johno/acute-data-mongodb",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
